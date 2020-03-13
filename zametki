@@ -5,5 +5,8 @@ git config --local user.email "samurai64328@mail.ru"
 global
 git config --global user.email "samurai64328@mail.ru"
 git status
-git add -
+git add -A SOXRANENIE
 1240
+git commit -a -m"first commit" soxranenie comit
+git log (cmotret cacie komiti bili)
+1913
