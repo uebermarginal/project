@@ -1,0 +1,9 @@
+git init
+git config 
+git config --local user.name"sergei"
+git config --local user.email "samurai64328@mail.ru"
+global
+git config --global user.email "samurai64328@mail.ru"
+git status
+git add -
+1240

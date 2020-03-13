@@ -1,0 +1,96 @@
+/* селектор{
+    
+    свойства:значение;
+    свойства:значение;
+    свойства:значение;
+
+
+} */
+h1{
+    text-align: center;    
+}
+h2{
+color:green ;
+font-size: 30px;
+text-align: center;
+/* cat (абривиатура удобнее) по центру  */
+font-weight: bold;/* жироность заголовков  */
+font-style: italic;/* cвойство для формирования текста  италик это курсив */
+text-decoration: underline;/* декорации к тексту  андерлайн это подчеркивание  */
+/* text-decoration: line-through; зачеркивание текста  */
+font-size: ;/* размер шрифта */
+}
+.text{
+    text-transform: uppercase;/* большой регистр */
+    font-weight: bold;
+}
+.Demin{
+color: gray;
+} 
+#begin{
+color: rgba(0, 0, 0, 1);
+font-weight: bold;
+}
+*{/* *звездочка селектор всего .правило будет относиться к всему на стр  */
+box-sizing: border-box;
+}
+
+div a {
+
+}
+.box{/* зеленые блоки */
+/* display: inline;  */
+display: inline-block;/* горизонтально расположить елементы в 1 строку */
+box-sizing: border-box;
+width: 300px;/* ширина  */
+height: 300px;/* высота  */
+background-color: lawngreen;/* цвет блоков  */
+padding: 20px;/* внутренний отсуп  */
+padding-left: 20px;/* cлева отсутп  */
+/* padding: 20px 50px; 1 цифра отступ сверху 2 отсуп с боков  */
+/* border-width: 3px;/* ширина границы  */
+/* border-style: solid;непрерывная линия границы  */
+/* border-color: lightseagreen;  */
+border: 3px solid black;/* комбинированный проще всего исп  */
+margin: 20px;/* внешние отступы  */
+z-index: ;/* позиция эллемента по оси з */
+vertical-align: top;/* все блоки прижимаютсья к верху  */
+/* vertical-align: middle;выравнивание блоков п оцентру  */
+}
+.pink{
+    color: midnightblue;
+}
+img{
+    width: 500px;
+    display: block;
+    margin: 0 auto;/* внешние отсутпы авто расположение по центру по горизонтали   */
+    /* float: left;обтекание картинки с правой  стороны */
+}
+a{/* cелектор ссылки  */
+    padding: 20px;
+    margin: 20px;
+
+}
+.exapmle{
+    background-color: rgb(150, 146, 146);
+    height: 700px;
+    position: relative;
+}
+.red{
+    background-color: lightblue;
+    position:absolute;
+    width: 50%;/* растягивание на 50%  */
+    font-size: 30px;/* размер шрифта  */
+}
+nav{
+    /* position: static;relative; absolute;fixed;inherit   */
+    position:inherit ;/* двигать елементы */
+    left: 200px;/* cмещение */
+    top: 150px; /* сдвиг вниз */
+    /*bottom: ; cдвиг вверх  */
+}
+/* блочные
+   строчные  
+   строчно-блочные еллементы */
+   17ур 2,52мин
+   
